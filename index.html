@@ -3,54 +3,63 @@
   <head>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="css/bootstrap.css" rel="styles" type="text/css">
-    <link href="css/styles.css" rel="styles" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>What programing language should you use?</title>
   </head>
   <body>
     <div class="container">
+      <div id="dark">
+        <button class="btn-btn-dark" id="dark">Change Mode!</button>
+      </div>
       <h1>Fill out the form below!</h1>
       <p>There's a bunch of diffrent programing languages out there, and when you first decide to learn how to programing
         making that choice can seem daunting. We're here to help, based on our personality quize below we'll tell you what
         language you're most likely to excell at.
       </p>
       
-      <label class="label">What working background are you coming from?</label>
+
+      <label>What working background are you coming from?</label>
       <select class="form-control" id="background">
-        <option>Resturaunts</option>
-        <option>Retail</option>
-        <option>Construction</option>
-        <option>Other</option>
+        <option value="1">Resturaunts</option>
+        <option value="2">Retail</option>
+        <option value="3">Construction</option>
+        <option value="4">Other</option>
       </select>
+      <br>
       
-      <label class="label">Are you good at critical thinking?</label>
+      <label>Are you good at critical thinking?</label>
       <select class="form-control" id="critical">
-        <option>Very</option>
-        <option>Mderatly</option>
-        <option>Not Very</option>
+        <option value="5">Very</option>
+        <option value="6">Mderatly</option>
+        <option value="7">Not Very</option>
       </select>
+      <br>
 
-      <label class="label">What would you normally do on a Friday night?</label>
+      <label>What would you normally do on a Friday night?</label>
       <select class="form-control" id="life">
-        <option>Stay in</option>
-        <option>Party</option>
-        <option>Small gathering</option>
+        <option value="8">Stay in</option>
+        <option value="9">Party</option>
+        <option value="10">Small gathering</option>
       </select>
+      <br>
 
-      <label class="label">Are you more concerned with getting a job now, or getting the right job?</label>
+      <label>Are you more concerned with getting a job now, or getting the right job?</label>
       <select class="form-control" id="job">
-        <option>Getting the right job</option>
-        <option>Getting a job now</option>
+        <option value="11">Getting the right job</option>
+        <option value="12">Getting a job now</option>
       </select>
+      <br>
 
-      <label class="label">How much time can you dedicate to learning?</label>
+      <label>How much time can you dedicate to learning?</label>
       <select class="form-control" id="time">
-        <option>0-10hrs/week</option>
-        <option>10-20hrs/week</option>
-        <option>20-30hrs/week</option>
-        <option>30-40hrs/week</option>
-        <option>40+hrs/week</option>
+        <option value="13">0-10hrs/week</option>
+        <option value="14">10-20hrs/week</option>
+        <option value="15">20-30hrs/week</option>
+        <option value="16">30-40hrs/week</option>
+        <option value="17">40+hrs/week</option>
       </select>
+      <button type="submit">Results</button>
 
 
     </div>
