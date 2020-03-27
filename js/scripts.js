@@ -15,7 +15,8 @@ $(document).ready(function() {
     console.log(job)
     var time = $('#time').val();
     console.log(time)
-   
+   var name = $('#name').val();
+   console.log(name)
 
     var result;
 
@@ -30,7 +31,7 @@ $(document).ready(function() {
   }
   
 
-    $('#output').text(result);
+    $('#output').text(`${name}you should learn${result}`);
 
     event.preventDefault();
 });
