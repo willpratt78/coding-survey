@@ -20,10 +20,14 @@ $(document).ready(function() {
     var result;
 
     if (background === "a" && critical === 'e' && life === 'h' && job === 'k' && time === 'm') {
-      result = 'Wow it was the first dropdown, for each. You should learn Python';
-  } else if (critical ===f && job === k) {
+      result = 'Wow it was the first dropdown for each. You should learn Python';
+  } else if (critical === 'f' && job === 'k') {
     result = 'Ruby'
-  } 
+  } else if (time === 'o' && job === 'k') {
+    result = 'C#'
+  } else {
+    result = 'Go'
+  }
   
 
     $('#output').text(result);
