@@ -1,26 +1,33 @@
 $(document).ready(function() {
-  
+  $("button#dark").click(function() {
+    $("body").toggleClass("change-mode");
+
+  });
   
 
   $("form#language").submit(function(event) {
-    var background = $('input#background').val();
-    var critical = $("input#critical").val();
-    var life = $("input#life").val();
-    var job = $("input#job").val();
-    var time = $('input#time').val();
+    var background = $('#background').val();
+    var critical = $("#critical").val();
+    console.log(critical)
+    var life = $("#life").val();
+    console.log(life)
+    var job = $("#job").val();
+    console.log(job)
+    var time = $('#time').val();
+    console.log(time)
    
 
     var result;
 
-    if (background === a) {
-      result = 'python';
-  } else{
-    result = 'Java'
-  }
+    if (background === "a" && critical === 'e' && life === 'h' && job === 'k' && time === 'm') {
+      result = 'Wow it was the first dropdown, for each. You should learn Python';
+  } else if (critical ===f && job === k) {
+    result = 'Ruby'
+  } 
+  
 
     $('#output').text(result);
 
     event.preventDefault();
-  });
-  });
+});
 });
