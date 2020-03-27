@@ -21,7 +21,7 @@ $(document).ready(function() {
     var result;
 
     if (background === "a" && critical === 'e' && life === 'h' && job === 'k' && time === 'm') {
-      result = 'Wow it was the first dropdown for each. You should learn Python'.link();
+      result = 'Wow it was the first dropdown for each. You should learn Python';
   } else if (critical === 'f' && job === 'k') {
     result = 'Ruby'
   } else if (time === 'o' && job === 'k') {
@@ -31,7 +31,7 @@ $(document).ready(function() {
   }
   
 
-    $('#output').text(`${name}you should learn${result}`);
+    $('#output').text(`${name} you should learn: ${result}`);
 
     event.preventDefault();
 });
