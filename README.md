@@ -10,7 +10,7 @@ This website will ask you a few short questions to help detirmine the type of co
 
 ## Setup/Installation Requirements
 
-* open webpage at to run application
+* open webpage at https://willpratt78.github.io/coding-survey/ to run application
 
 ## Known Bugs
 
